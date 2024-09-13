@@ -18,14 +18,14 @@ const Footer = () => {
           © 2024 Murtaza Bazaz<a href="/" className="hover:underline"></a>
         </div>
         <div className="flex flex-row items-center justify-center space-x-2 mb-1">
-          <a href="https://github.com/Danish9991/" rel="noreferrer" target="_blank">
+          <a href="https://github.com/murtazabazaz" rel="noreferrer" target="_blank">
             <AiOutlineGithub
               className="hover:-translate-y-1 transition-transform cursor-pointer"
               size={30}
               style={{ color: currentTheme === 'dark' ? '#f5f5f5' : '#1f2937' }} // Set icon color
             />
           </a>
-          <a href="https://twitter.com/Danishyousufmir" rel="noreferrer" target="_blank">
+          <a href="https://x.com/Murtazabazaz06" rel="noreferrer" target="_blank">
             <AiOutlineTwitter
               className="hover:-translate-y-1 transition-transform cursor-pointer"
               size={30}
@@ -33,7 +33,7 @@ const Footer = () => {
             />
           </a>
           <a
-            href="https://www.linkedin.com/in/danish-yousuf-mir/"
+            href="https://www.linkedin.com/in/murtaza-bazaz-5bb862223/"
             rel="noreferrer" target="_blank"
           >
             <AiOutlineLinkedin
