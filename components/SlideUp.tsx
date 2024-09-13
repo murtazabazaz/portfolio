@@ -18,7 +18,7 @@ export default function SlideUp({ children, offset = "0px" }: Props) {
             entry.target.classList.remove("opacity-0")
             entry.target.classList.add("animate-slideUpCubiBezier")
           }
-        })
+        }, [offset])
       },
       { rootMargin: offset }
     )
