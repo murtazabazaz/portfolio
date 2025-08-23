@@ -4,6 +4,8 @@ import Image from "next/image";
 const skills = [
   { skill: "JavaScript" },
   { skill: "TypeScript" },
+  {skill: "Angular"},
+  {skill: "dotnet"},
   { skill: "React" },
   { skill: "Node.js" },
   { skill: "Express.js" },
